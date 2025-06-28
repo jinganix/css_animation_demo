@@ -1,0 +1,6 @@
+*.iml
+.DS_Store
+.idea/
+.react-router/
+build/
+node_modules/

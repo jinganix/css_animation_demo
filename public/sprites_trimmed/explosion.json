@@ -1,0 +1,261 @@
+{
+  "name": "explosion",
+  "imagePath": "explosion.png",
+  "width": 1024,
+  "height": 944,
+  "SubTexture": [
+    {
+      "name": "explosion_00",
+      "x": 637,
+      "y": 199,
+      "width": 177,
+      "height": 183,
+      "frameX": -49,
+      "frameY": -68,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_01",
+      "x": 637,
+      "y": 386,
+      "width": 177,
+      "height": 183,
+      "frameX": -49,
+      "frameY": -68,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_02",
+      "x": 635,
+      "y": 573,
+      "width": 177,
+      "height": 183,
+      "frameX": -49,
+      "frameY": -68,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_03",
+      "x": 833,
+      "y": 190,
+      "width": 180,
+      "height": 180,
+      "frameX": -52,
+      "frameY": -69,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_04",
+      "x": 833,
+      "y": 2,
+      "width": 189,
+      "height": 184,
+      "frameX": -49,
+      "frameY": -67,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_05",
+      "x": 818,
+      "y": 569,
+      "width": 194,
+      "height": 188,
+      "frameX": -47,
+      "frameY": -66,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_06",
+      "x": 818,
+      "y": 374,
+      "width": 197,
+      "height": 191,
+      "frameX": -44,
+      "frameY": -64,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_07",
+      "x": 2,
+      "y": 200,
+      "width": 199,
+      "height": 192,
+      "frameX": -43,
+      "frameY": -65,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_08",
+      "x": 627,
+      "y": 2,
+      "width": 202,
+      "height": 193,
+      "frameX": -42,
+      "frameY": -63,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_09",
+      "x": 420,
+      "y": 2,
+      "width": 203,
+      "height": 193,
+      "frameX": -40,
+      "frameY": -63,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_10",
+      "x": 212,
+      "y": 2,
+      "width": 204,
+      "height": 193,
+      "frameX": -40,
+      "frameY": -63,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_11",
+      "x": 2,
+      "y": 2,
+      "width": 206,
+      "height": 194,
+      "frameX": -39,
+      "frameY": -64,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_12",
+      "x": 215,
+      "y": 577,
+      "width": 205,
+      "height": 186,
+      "frameX": -38,
+      "frameY": -63,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_13",
+      "x": 424,
+      "y": 388,
+      "width": 207,
+      "height": 186,
+      "frameX": -37,
+      "frameY": -63,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_14",
+      "x": 212,
+      "y": 199,
+      "width": 208,
+      "height": 186,
+      "frameX": -38,
+      "frameY": -64,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_15",
+      "x": 424,
+      "y": 199,
+      "width": 209,
+      "height": 185,
+      "frameX": -37,
+      "frameY": -64,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_16",
+      "x": 2,
+      "y": 577,
+      "width": 209,
+      "height": 184,
+      "frameX": -37,
+      "frameY": -66,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_17",
+      "x": 205,
+      "y": 389,
+      "width": 210,
+      "height": 184,
+      "frameX": -38,
+      "frameY": -66,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_18",
+      "x": 424,
+      "y": 760,
+      "width": 210,
+      "height": 182,
+      "frameX": -38,
+      "frameY": -68,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_19",
+      "x": 638,
+      "y": 761,
+      "width": 211,
+      "height": 177,
+      "frameX": -37,
+      "frameY": -72,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_20",
+      "x": 2,
+      "y": 765,
+      "width": 209,
+      "height": 176,
+      "frameX": -39,
+      "frameY": -74,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_21",
+      "x": 424,
+      "y": 578,
+      "width": 206,
+      "height": 173,
+      "frameX": -44,
+      "frameY": -75,
+      "frameWidth": 271,
+      "frameHeight": 297
+    },
+    {
+      "name": "explosion_22",
+      "x": 2,
+      "y": 396,
+      "width": 185,
+      "height": 170,
+      "frameX": -64,
+      "frameY": -78,
+      "frameWidth": 271,
+      "frameHeight": 297
+    }
+  ]
+}

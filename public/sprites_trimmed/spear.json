@@ -1,0 +1,74 @@
+{
+  "name": "spear",
+  "imagePath": "spear.png",
+  "width": 984,
+  "height": 145,
+  "SubTexture": [
+    {
+      "name": "spear_01",
+      "x": 406,
+      "y": 2,
+      "width": 187,
+      "height": 73,
+      "frameX": -41,
+      "frameY": -63,
+      "frameWidth": 289,
+      "frameHeight": 184
+    },
+    {
+      "name": "spear_02",
+      "x": 788,
+      "y": 72,
+      "width": 177,
+      "height": 71,
+      "frameX": -56,
+      "frameY": -64,
+      "frameWidth": 289,
+      "frameHeight": 184
+    },
+    {
+      "name": "spear_03",
+      "x": 788,
+      "y": 2,
+      "width": 194,
+      "height": 66,
+      "frameX": -41,
+      "frameY": -71,
+      "frameWidth": 289,
+      "frameHeight": 184
+    },
+    {
+      "name": "spear_04",
+      "x": 2,
+      "y": 2,
+      "width": 215,
+      "height": 90,
+      "frameX": -30,
+      "frameY": -58,
+      "frameWidth": 289,
+      "frameHeight": 184
+    },
+    {
+      "name": "spear_05",
+      "x": 221,
+      "y": 2,
+      "width": 181,
+      "height": 87,
+      "frameX": -49,
+      "frameY": -47,
+      "frameWidth": 289,
+      "frameHeight": 184
+    },
+    {
+      "name": "spear_06",
+      "x": 597,
+      "y": 2,
+      "width": 187,
+      "height": 73,
+      "frameX": -41,
+      "frameY": -63,
+      "frameWidth": 289,
+      "frameHeight": 184
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+.explosion {
+  overflow: hidden;
+  height: 297px;
+  width: 271px;
+  position: relative;
+}
+
+.explosion-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 944px;
+  background: url("sprites_trimmed/explosion.png") no-repeat;
+  will-change: transform, mask-position, mask-size;
+  backface-visibility: hidden;
+  contain: paint;
+  transform: translateZ(0);
+  perspective: 1000px;
+
+  mask-image: linear-gradient(black 100%, black 100%);
+  -webkit-mask-image: linear-gradient(black 100%, black 100%);
+  mask-repeat: no-repeat;
+
+  animation: explosion-ani-frame 2300ms steps(1) infinite;
+}
+
+@keyframes explosion-ani-frame {
+  0% {
+    transform: translate3d(-588px, -131px, 0);
+    mask-position: 637px 199px;
+    mask-size: 177px 183px;
+  }
+  4.55% {
+    transform: translate3d(-588px, -318px, 0);
+    mask-position: 637px 386px;
+    mask-size: 177px 183px;
+  }
+  9.09% {
+    transform: translate3d(-586px, -505px, 0);
+    mask-position: 635px 573px;
+    mask-size: 177px 183px;
+  }
+  13.64% {
+    transform: translate3d(-782px, -122px, 0);
+    mask-position: 833px 190px;
+    mask-size: 180px 180px;
+  }
+  18.18% {
+    transform: translate3d(-784px, 64px, 0);
+    mask-position: 833px 2px;
+    mask-size: 189px 184px;
+  }
+  22.73% {
+    transform: translate3d(-772px, -504px, 0);
+    mask-position: 818px 569px;
+    mask-size: 194px 188px;
+  }
+  27.27% {
+    transform: translate3d(-774px, -310px, 0);
+    mask-position: 818px 374px;
+    mask-size: 197px 191px;
+  }
+  31.82% {
+    transform: translate3d(41px, -136px, 0);
+    mask-position: 2px 200px;
+    mask-size: 199px 192px;
+  }
+  36.36% {
+    transform: translate3d(-586px, 61px, 0);
+    mask-position: 627px 2px;
+    mask-size: 202px 193px;
+  }
+  40.91% {
+    transform: translate3d(-380px, 61px, 0);
+    mask-position: 420px 2px;
+    mask-size: 203px 193px;
+  }
+  45.45% {
+    transform: translate3d(-173px, 61px, 0);
+    mask-position: 212px 2px;
+    mask-size: 204px 193px;
+  }
+  50% {
+    transform: translate3d(36px, 61px, 0);
+    mask-position: 2px 2px;
+    mask-size: 206px 194px;
+  }
+  54.55% {
+    transform: translate3d(-177px, -515px, 0);
+    mask-position: 215px 577px;
+    mask-size: 205px 186px;
+  }
+  59.09% {
+    transform: translate3d(-387px, -326px, 0);
+    mask-position: 424px 388px;
+    mask-size: 207px 186px;
+  }
+  63.64% {
+    transform: translate3d(-175px, -136px, 0);
+    mask-position: 212px 199px;
+    mask-size: 208px 186px;
+  }
+  68.18% {
+    transform: translate3d(-387px, -135px, 0);
+    mask-position: 424px 199px;
+    mask-size: 209px 185px;
+  }
+  72.73% {
+    transform: translate3d(35px, -512px, 0);
+    mask-position: 2px 577px;
+    mask-size: 209px 184px;
+  }
+  77.27% {
+    transform: translate3d(-168px, -324px, 0);
+    mask-position: 205px 389px;
+    mask-size: 210px 184px;
+  }
+  81.82% {
+    transform: translate3d(-387px, -693px, 0);
+    mask-position: 424px 760px;
+    mask-size: 210px 182px;
+  }
+  86.36% {
+    transform: translate3d(-601px, -689px, 0);
+    mask-position: 638px 761px;
+    mask-size: 211px 177px;
+  }
+  90.91% {
+    transform: translate3d(37px, -692px, 0);
+    mask-position: 2px 765px;
+    mask-size: 209px 176px;
+  }
+  95.45% {
+    transform: translate3d(-381px, -503px, 0);
+    mask-position: 424px 578px;
+    mask-size: 206px 173px;
+  }
+  100% {
+    transform: translate3d(62px, -319px, 0);
+    mask-position: 2px 396px;
+    mask-size: 185px 170px;
+  }
+}
