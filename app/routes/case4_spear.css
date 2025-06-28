@@ -1,0 +1,30 @@
+@keyframes spearSprite {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: -289px 0;
+  }
+  40% {
+    background-position: -578px 0;
+  }
+  60% {
+    background-position: -867px 0;
+  }
+  80% {
+    background-position: -1156px 0;
+  }
+  100% {
+    background-position: -1445px 0;
+  }
+}
+
+.spear {
+  width: 289px;
+  height: 184px;
+  background-image: url('sprites/spear.png');
+  background-repeat: no-repeat;
+  will-change: background-position;
+  transform: translateZ(0);
+  animation: spearSprite 600ms steps(1);
+}

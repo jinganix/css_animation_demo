@@ -1,0 +1,25 @@
+.explosion {
+  width: 271px;
+  height: 297px;
+  overflow: hidden;
+  position: relative;
+}
+
+.explosion-bg {
+  width: 6233px;
+  height: 297px;
+  background: url('sprites/explosion.png') no-repeat;
+  background-size: cover;
+
+  animation: spritePlay 2300ms steps(22) forwards infinite;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  contain: paint;
+}
+
+@keyframes spritePlay {
+  100% {
+    transform: translateX(-5962px); /* 271 * (23 - 1) */
+  }
+}

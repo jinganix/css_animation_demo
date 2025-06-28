@@ -1,0 +1,83 @@
+@keyframes explosionAnimation {
+  0% {
+    background-image: url('/frames/explosion/explosion_07.png');
+  }
+  4.35% {
+    background-image: url('/frames/explosion/explosion_08.png');
+  }
+  8.70% {
+    background-image: url('/frames/explosion/explosion_09.png');
+  }
+  13.04% {
+    background-image: url('/frames/explosion/explosion_10.png');
+  }
+  17.39% {
+    background-image: url('/frames/explosion/explosion_11.png');
+  }
+  21.74% {
+    background-image: url('/frames/explosion/explosion_12.png');
+  }
+  26.09% {
+    background-image: url('/frames/explosion/explosion_13.png');
+  }
+  30.43% {
+    background-image: url('/frames/explosion/explosion_14.png');
+  }
+  34.78% {
+    background-image: url('/frames/explosion/explosion_15.png');
+  }
+  39.13% {
+    background-image: url('/frames/explosion/explosion_16.png');
+  }
+  43.48% {
+    background-image: url('/frames/explosion/explosion_17.png');
+  }
+  47.83% {
+    background-image: url('/frames/explosion/explosion_18.png');
+  }
+  52.17% {
+    background-image: url('/frames/explosion/explosion_19.png');
+  }
+  56.52% {
+    background-image: url('/frames/explosion/explosion_20.png');
+  }
+  60.87% {
+    background-image: url('/frames/explosion/explosion_21.png');
+  }
+  65.22% {
+    background-image: url('/frames/explosion/explosion_22.png');
+  }
+  69.57% {
+    background-image: url('/frames/explosion/explosion_23.png');
+  }
+  73.91% {
+    background-image: url('/frames/explosion/explosion_24.png');
+  }
+  78.26% {
+    background-image: url('/frames/explosion/explosion_25.png');
+  }
+  82.61% {
+    background-image: url('/frames/explosion/explosion_26.png');
+  }
+  86.96% {
+    background-image: url('/frames/explosion/explosion_27.png');
+  }
+  91.30% {
+    background-image: url('/frames/explosion/explosion_28.png');
+  }
+  95.65% {
+    background-image: url('/frames/explosion/explosion_29.png');
+  }
+  100% {
+    background-image: url('/frames/explosion/explosion_07.png');
+  }
+}
+
+.explosion {
+  overflow: hidden;
+  height: 297px;
+  width: 271px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: explosionAnimation 2300ms steps(1);
+}

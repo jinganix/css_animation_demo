@@ -1,0 +1,111 @@
+.explosion {
+  overflow: hidden;
+  height: 297px;
+  width: 271px;
+}
+
+.explosion-bg {
+  will-change: transform;
+  transform: translate3d(271px, 297px, 0);
+  backface-visibility: hidden;
+  contain: paint;
+  height: 944px;
+  width: 1024px;
+  background: url("sprites_trimmed/explosion.png") no-repeat;
+  animation: explosion-ani-frame 2300ms steps(1) infinite;
+}
+
+@keyframes explosion-ani-frame {
+  0% {
+    transform: translate3d(-588px, -131px, 0);
+    clip-path: inset(199px 210px 562px 637px);
+  }
+  4.55% {
+    transform: translate3d(-588px, -318px, 0);
+    clip-path: inset(386px 210px 375px 637px);
+  }
+  9.09% {
+    transform: translate3d(-586px, -505px, 0);
+    clip-path: inset(573px 212px 188px 635px);
+  }
+  13.64% {
+    transform: translate3d(-782px, -122px, 0);
+    clip-path: inset(190px 11px 574px 833px);
+  }
+  18.18% {
+    transform: translate3d(-784px, 64px, 0);
+    clip-path: inset(2px 2px 758px 833px);
+  }
+  22.73% {
+    transform: translate3d(-772px, -504px, 0);
+    clip-path: inset(569px 12px 187px 818px);
+  }
+  27.27% {
+    transform: translate3d(-774px, -310px, 0);
+    clip-path: inset(374px 9px 379px 818px);
+  }
+  31.82% {
+    transform: translate3d(41px, -136px, 0);
+    clip-path: inset(200px 823px 552px 2px);
+  }
+  36.36% {
+    transform: translate3d(-586px, 61px, 0);
+    clip-path: inset(2px 195px 749px 627px);
+  }
+  40.91% {
+    transform: translate3d(-380px, 61px, 0);
+    clip-path: inset(2px 401px 749px 420px);
+  }
+  45.45% {
+    transform: translate3d(-173px, 61px, 0);
+    clip-path: inset(2px 608px 749px 212px);
+  }
+  50% {
+    transform: translate3d(36px, 61px, 0);
+    clip-path: inset(2px 816px 748px 2px);
+  }
+  54.55% {
+    transform: translate3d(-177px, -515px, 0);
+    clip-path: inset(577px 604px 181px 215px);
+  }
+  59.09% {
+    transform: translate3d(-387px, -326px, 0);
+    clip-path: inset(388px 393px 370px 424px);
+  }
+  63.64% {
+    transform: translate3d(-175px, -136px, 0);
+    clip-path: inset(199px 604px 559px 212px);
+  }
+  68.18% {
+    transform: translate3d(-387px, -135px, 0);
+    clip-path: inset(199px 391px 560px 424px);
+  }
+  72.73% {
+    transform: translate3d(35px, -512px, 0);
+    clip-path: inset(577px 813px 183px 2px);
+  }
+  77.27% {
+    transform: translate3d(-168px, -324px, 0);
+    clip-path: inset(389px 609px 371px 205px);
+  }
+  81.82% {
+    transform: translate3d(-387px, -693px, 0);
+    clip-path: inset(760px 390px 2px 424px);
+  }
+  86.36% {
+    transform: translate3d(-601px, -689px, 0);
+    clip-path: inset(761px 175px 6px 638px);
+  }
+  90.91% {
+    transform: translate3d(37px, -692px, 0);
+    clip-path: inset(765px 813px 3px 2px);
+  }
+  95.45% {
+    transform: translate3d(-381px, -503px, 0);
+    clip-path: inset(578px 394px 193px 424px);
+  }
+  100% {
+    transform: translate3d(62px, -319px, 0);
+    clip-path: inset(396px 837px 378px 2px);
+  }
+}

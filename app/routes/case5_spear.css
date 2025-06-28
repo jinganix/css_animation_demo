@@ -1,0 +1,41 @@
+.spear {
+  overflow: hidden;
+  height: 184px;
+  width: 289px;
+}
+
+.spear-bg {
+  will-change: transform;
+  transform: translate3d(289px, 184px, 0);
+  height: 145px;
+  width: 984px;
+  background: url("sprites_trimmed/spear.png") no-repeat;
+  animation: spear-ani-frame 600ms steps(1);
+}
+
+@keyframes spear-ani-frame {
+  0% {
+    transform: translate3d(-365px, 60px, 0);
+    clip-path: inset(2px 391px 70px 406px);
+  }
+  20% {
+    transform: translate3d(-732px, -9px, 0);
+    clip-path: inset(72px 19px 2px 788px);
+  }
+  40% {
+    transform: translate3d(-748px, 69px, 0);
+    clip-path: inset(2px 2px 77px 788px);
+  }
+  60% {
+    transform: translate3d(28px, 56px, 0);
+    clip-path: inset(2px 767px 53px 2px);
+  }
+  80% {
+    transform: translate3d(-172px, 44px, 0);
+    clip-path: inset(2px 582px 56px 221px);
+  }
+  100% {
+    transform: translate3d(-556px, 60px, 0);
+    clip-path: inset(2px 200px 70px 597px);
+  }
+}
